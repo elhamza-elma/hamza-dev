@@ -1,0 +1,49 @@
+# Orchestria
+
+## 📘 Project Overview
+Orchestria is a modern full-stack library management application built to replace the outdated system called **Symphony**, which suffered from poor performance, cluttered UI, manual workflows, and lack of useful features. The goal of Orchestria is to **automate**, **simplify**, and **modernize** the library experience for both administrators and readers.
+
+## 🧠 Problem Statement
+The old system (Symphony) had several issues:
+- Slow to open at startup
+- Overcomplicated interface with unused features
+- Frequently blocked or frozen
+- Manual workflows for user and book linking
+- No analytics or reports on borrowed books
+- Poor user interface design
+
+## 🎯 Target Users
+- **General users / students** who want to borrow books
+- **Library admins** who manage books and users
+
+## 📋 Functional Overview
+- **Users** can sign up, log in, and borrow books
+- **Admins** can manage (CRUD) book entries
+- Borrowing processes are fully **automated** (no more manual matching)
+- Book and user data are linked intelligently through the system
+
+## 👤 User Roles
+- **Admin**: can create, read, update, delete book entries
+- **Borrower**: can register and borrow books
+
+## 🎨 UI/UX Design
+- Designed with the help of **Claude 4 LLM**
+- Styled using **Tailwind CSS**
+- Uses **Manrope font** for clean and modern readability
+- Focused on simplicity, clarity, and fast interactions
+
+## 🧩 Challenges Faced
+- Integrating Google as an authentication provider
+- Limited hardware: slow laptop affected component rendering and performance
+
+## 📚 Lessons Learned
+- Gained strong experience in **Next.js** and **Prisma**
+- Learned how to build **API routes** in `route.ts`
+- Learned to **integrate external auth providers** like Google
+
+## 🚀 Future Improvements
+- Customizable book fields (each library may need different metadata)
+- Multi-language support for a more global reach
+
+## 🧾 Final Thoughts
+Orchestria is a step toward a cleaner, smarter, and more human-friendly library system. While it's already functional, it’s designed with extensibility in mind to support more complex workflows and audiences in future iterations.
